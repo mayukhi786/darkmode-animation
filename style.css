@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mode {
+    font-size: 40px;
+}
+
+.text {
+    color: rgb(71, 85, 198);
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    bottom: 20%;
+}
+
+svg {
+    cursor: pointer;
+    overflow: visible;
+    bottom: 50%;
+}
+
+body {
+    font-family: 'Unbounded', sans-serif;
+}
